@@ -1,0 +1,92 @@
+/* Colors and fonts */ 
+body {
+	background: rgba(134, 195, 255, 0.1);
+}
+#pdp {
+	border-radius: 30%;
+	box-shadow: 5px 5px 5px grey;
+	width:300px ;
+	margin-left: 200px;
+	margin-bottom: 70px;
+}
+
+h1 {
+	color: ee6c4d ;
+	font-family:monospace; 	
+	font-size: 2.40em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+h3 {
+	font-family:monospace; 
+	color: 219ebc ;
+	font-size: 1.60em;    
+	margin-block-start: 1.02em;
+    margin-block-end: 1.02em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+h4 {
+	font-family:monospace; 
+	color: ee6c4d ;
+	font-size: 1.30em;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+p {
+	font-family:monospace; 
+	color: 3d5a80 ;
+	font-size: 1.21em;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+ul {
+	font-family:monospace; 
+	color: 3d5a80 ;
+	font-size: 1.17em;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-left: 10px;
+    font-weight: bold;
+    list-style: none;
+}
+
+a {
+	color:3d5a80 ;
+	text-decoration: none;
+	padding: 1px;
+
+}
+
+a:hover {
+	color:ee6c4d;
+	transition: 0.4s ease;
+	margin-left: 10px;
+
+}
+
+div {
+	background:white;
+	border: 1px solid white;
+	padding: 20px;
+	width: 750px;
+	margin: 10px;
+	margin-left: 550;
+	margin-bottom: 2px;
+	box-shadow:5px 5px 3px grey; /* horizontal-shift vertical-shift blur color */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+ } } 
