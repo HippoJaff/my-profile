@@ -80,7 +80,8 @@ div {
 	padding: 20px;
 	width: 750px;
 	margin: 10px;
-	margin-left: 550;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 2px;
 	box-shadow:5px 5px 3px grey; /* horizontal-shift vertical-shift blur color */
 }
@@ -89,4 +90,4 @@ div {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
- } } 
+ } 
